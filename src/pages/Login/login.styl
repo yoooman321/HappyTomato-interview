@@ -1,0 +1,78 @@
+.login-page
+    height 100vh
+    margin 0
+    padding 20vh
+    background linear-gradient(to bottom right, yellow, red)
+    .login-card
+      position relative
+      margin 0 auto
+      width 70vw
+      padding 2vh
+      background rgba(255, 255, 255, 0.5)
+      box-shadow 1px 1px 15px 5px #9d999c
+      .extra-info
+        display none
+        padding 2vh
+        z-index 3
+        background-color white
+        width 20vw
+        border 1px solid gray
+        border-radius 1vh
+        position absolute 
+        left 2vw
+        top 2vh
+      .info-icon:hover .extra-info
+        display block
+      .login-text
+        color #8E8E8E
+      .login-title
+        text-align center
+        font-weight bold
+        font-size 20px
+      .login-part
+        display flex
+        padding 2vh
+        justify-content center
+        text-align center
+        .third-party-login
+          padding 0 5vh
+          margin 1vh
+          width 30vw
+          .third-party-button
+            margin 3vh
+            width 25vw
+            height 6vh
+        .email-login
+          padding 0 1vh
+          margin 1vh
+          width 25vw
+          .recaptcha
+            margin 2vh 0vh
+          .remember-check
+            text-align left
+          .error-message
+            color red
+            text-align left
+            font-size 12px
+            margin 1vh
+          .input-field
+            text-align left
+          .login-button
+            margin 2vh auto
+            display block
+            width 100%
+        .or
+          margin auto 2vh
+          .line
+            border-left 1px solid #8E8E8E
+            height 15vh
+            position absolute
+          .up
+            left 50%
+            top 22%
+          .down
+            left 50%
+          .or-text
+            position absolute
+            left 49.5%
+            top 50%
